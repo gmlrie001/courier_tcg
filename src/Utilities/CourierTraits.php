@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Helpers\TheCourierGuyParcelPerfectAPI\Utilities;
+namespace Vault\CourierTcg\Utilities;
 
-// use App\Helpers\TheCourierGuyParcelPerfectAPI\Services\Auth\GetSecureToken;
-// use App\Helpers\TheCourierGuyParcelPerfectAPI\Utilities\CourierHelpers;
+// useVault\CourierTcg\Services\Auth\GetSecureToken;
+// useVault\CourierTcg\Utilities\CourierHelpers;
 
 use App\Helpers\SimpleClient;
 

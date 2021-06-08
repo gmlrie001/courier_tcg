@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Helpers\TheCourierGuyParcelPerfectAPI\Utilities;
+namespace Vault\CourierTcg\Utilities;
 
 use Schema;
 
-use App\Helpers\TheCourierGuyParcelPerfectAPI\Utilities\CourierTraits;
+use Vault\CourierTcg\Utilities\CourierTraits;
 use App\Helpers\SimpleClient;
 
 use App\Models\Basket;

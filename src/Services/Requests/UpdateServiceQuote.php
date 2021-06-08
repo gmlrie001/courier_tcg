@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Helpers\TheCourierGuyParcelPerfectAPI\Services\Requests;
+namespace Vault\CourierTcg\Services\Requests;
 
 use \App\Helpers\TheCourierGuyParcelPerfectAPI\Services\Auth\GetSecureToken;
 use \App\Helpers\TheCourierGuyParcelPerfectAPI\Services\Auth\GetSalt;

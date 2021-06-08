@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Helpers\TheCourierGuyParcelPerfectAPI\Services\Verification;
+namespace Vault\CourierTcg\Services\Verification;
 
 use Illuminate\Http\Request;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Helpers\TheCourierGuyParcelPerfectAPI\Services\Auth;
+namespace Vault\CourierTcg\Services;
 
 use App\Helpers\TheCourierGuyParcelPerfectAPI\Utilities\CourierHelpers;
 use App\Helpers\TheCourierGuyParcelPerfectAPI\Utilities\CourierTraits;

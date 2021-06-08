@@ -1,4 +1,6 @@
-<?php namespace Vault\CourierTcg\Models;
+<?php
+
+namespace Vault\CourierTcg\Models;
 
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\SoftDeletes;

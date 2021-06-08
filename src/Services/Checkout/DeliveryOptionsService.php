@@ -1,4 +1,6 @@
-<?php namespace App\Helpers\TheCourierGuyParcelPerfectAPI\CheckoutServices;
+<?php
+
+namespace Vault\CourierTcg\Services\Checkout;
 
 use App\Helpers\TheCourierGuyParcelPerfectAPI\Services\Collection\QuoteToCollection;
 use App\Helpers\TheCourierGuyParcelPerfectAPI\Services\Collection\SubmitCollection;
