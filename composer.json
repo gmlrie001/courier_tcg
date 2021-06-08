@@ -1,0 +1,52 @@
+{
+  "name": "vault/courier_tcg",
+  "type": "library",
+  "description": "Class wrapper for various shipment couriers: this package is for The Courier Guys via the Parcel Perfect API.",
+  "keywords": [
+    "vault_core", 
+    "shipment", 
+    "couriers", 
+    "The Courier Guy", 
+    "Parcel Perfect API" 
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "M. Riedaa Gamieldien",
+      "email": "riedaa@monzamedia.com"
+    }
+  ],
+  "require-dev": {
+    "vault/shipment_courier": "dev-developTest"
+  },
+  "minimum-stability": "dev",
+  "config": {
+    "sort-packages": true
+  },
+  "autoload": {
+    "psr-4": {
+      "Vault\\CourierTcg\\": "src"
+    },
+    "classmap": [
+      "src/Utilities",
+      "src/Exceptions",
+      "src/Services" 
+    ]
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Vault\\CourierTcg\\CourierTcgServiceProvider"
+      ],
+      "aliases": {
+        "CourierTcg": "Vault\\CourierTcg\\Facades\\CourierTcg"
+      }
+    }
+  },
+  "repositories": [
+    {
+        "type": "path",
+        "url": "../shipment_courier"
+    }
+  ]
+}

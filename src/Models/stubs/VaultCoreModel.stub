@@ -1,0 +1,76 @@
+<?php namespace {{namespace}};
+
+use Illuminate\Database\Eloquent\Builder;
+use Illuminate\Database\Eloquent\SoftDeletes;
+use Illuminate\Database\Eloquent\Model;
+
+use App\Traits\LocalScopes;
+
+class {{modelName}} extends Model
+{
+    use SoftDeletes, LocalScopes;
+
+    public $orderable = {{listing_orderable}};
+    public $orderField = {{default_orderField}};
+    public $titleField = {{titleField}};
+    public $statusField = {{statusField}};
+    public $hasStatus = {{hasStatusField}};
+    public $orderDirection = {{orderDirectionField}};
+    public $parentOrder = {{foreignKey}};
+    public $parentTable = {{parentTable}};
+    public $orderOptions = {{orderFieldOptions}};
+    public $relationships = {{relatedHasManyModels}};
+    public $mainDropdownField = {{listingDropdownMainField}};
+    public $imageDropdownField = {{listingDropdownImageField}};
+
+    /**
+     * The relationships that should be eagerly loaded.
+     *
+     * @var array
+     */
+    protected $with = [];
+
+    /**
+     * The attributes that are mass assignable.
+     *
+     * @var array
+     */
+    protected $fillable = [];
+    
+    public $fields = [
+      // ['field_name', 'label', 'field_type', 'options_model', 'options_relationship', 'width', 'height', 'container_class', 'can_remove'],
+    ];
+
+    /**
+     * Relationship definition functions
+     */
+    // public function {{relationshipFunctionName}}()
+    // {
+    //   return $this->{{relationshipKind}}( {{relationshipParentModel}}::class, '{{relationshipForeignKey}}' )
+    // }
+
+     /**
+      * Model mutator functions
+      */
+    // public function {{}}()
+    // {
+    //   return $this->first_name . ' ' . $this->last_name;
+    // }
+
+    /**
+     * Model accessor functions
+     */
+     // public function {{}}( $modelColumnName )
+     // {
+     //   return $this->attributes['{$modelColumnName}'];
+     // }
+
+    /**
+     * Model event/booting functions
+     */
+    // public static function booting()
+    // {
+    //   return;
+    // }
+
+}

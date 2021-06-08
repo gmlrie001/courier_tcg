@@ -1,0 +1,18 @@
+# Gitignore for the Parcel Perfect - The Courier Guy API
+#
+*unpackme*
+
+*dev*
+
+_helpers
+
+*.zip
+*.gz
+*.bz2
+*.tar
+*.tar.gz
+*.tar.bz2
+
+vendor
+
+
