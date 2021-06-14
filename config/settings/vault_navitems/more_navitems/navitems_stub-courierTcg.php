@@ -14,11 +14,13 @@ return [
         'title' => 'The Courier Guy Setup', 
         'icon' => 'fa fa-cogs', 
         'specific_id' => '', 
+
         'sub_database_tables' => [
-            'courier_tcg_accounts', 
-            'courier_tcg_addresses', 
-            'courier_tcg_pickdetails', 
-          ]
+          'courier_tcg_accounts', 
+          'courier_tcg_addresses', 
+          'courier_tcg_pickdetails', 
+        ]
+
       ], 
 
     ], 

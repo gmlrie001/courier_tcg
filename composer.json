@@ -42,11 +42,5 @@
         "CourierTcg": "Vault\\CourierTcg\\Facades\\CourierTcg"
       }
     }
-  },
-  "repositories": [
-    {
-        "type": "path",
-        "url": "../shipment_courier"
-    }
-  ]
+  }
 }
