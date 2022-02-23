@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Helpers\TheCourierGuyParcelPerfectAPI\Services\Waybill;
+namespace Vault\CourierTcg\Services\Waybill;
 
 use \App\Helpers\TheCourierGuyParcelPerfectAPI\Services\Auth\GetSecureToken;
 use \App\Helpers\TheCourierGuyParcelPerfectAPI\Services\Auth\GetSalt;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Vault\ShipmentCourier\Helpers\Services;
+namespace Vault\CourierTcg\Utilities\CourierParameterSetupServices;
 
 use Vault\ShipmentCourier\ShipmentCourier;
 

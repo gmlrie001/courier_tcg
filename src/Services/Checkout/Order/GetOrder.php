@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Helpers\TheCourierGuyParcelPerfectAPI;
+namespace Vault\CourierTcg\Services\Checkout\Order;
 
 use App\Helpers\TheCourierGuyParcelPerfectAPI\OrderException;
 use App\Models\Basket;

@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Requests\CourierTcg;
+namespace Vault\CourierTcg;
 
 use Illuminate\Foundation\Http\FormRequest;
 

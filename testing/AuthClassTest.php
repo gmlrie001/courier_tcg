@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Helpers\TheCourierGuyParcelPerfectAPI\Testing;
+namespace Vault\CourierTcg\Testing;
 
-use App\Helpers\TheCourierGuyParcelPerfectAPI\Services\Auth\GetSalt;
-use App\Helpers\TheCourierGuyParcelPerfectAPI\Services\Auth\GetSecureToken;
+use Vault\CourierTcg\Services\Auth\GetSalt;
+use Vault\CourierTcg\Services\Auth\GetSecureToken;
 
 class AuthClassTest
 {

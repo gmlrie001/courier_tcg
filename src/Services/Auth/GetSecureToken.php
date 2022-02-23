@@ -1,20 +1,21 @@
 <?php
 
-namespace App\Helpers\TheCourierGuyParcelPerfectAPI\Services\Auth;
+namespace Vault\CourierTcg\Services;
 
-use \App\Helpers\TheCourierGuyParcelPerfectAPI\Services\Auth\GetSalt;
-use \App\Helpers\TheCourierGuyParcelPerfectAPI\Utilities\CourierTraits;
+use \Vault\CourierTcg\Services\Auth\GetSalt;
+use \Vault\CourierTcg\Utilities\CourierTraits;
 
-use App\Helpers\TheCourierGuyParcelPerfectAPI\TheCourierGuyPPAPI;
+use \Vault\CourierTcg\CourierTcg;
+use \Vault\CourierTcg\Services\FileIo;
 
 use App\Helpers\SimpleClient;
-use App\Helpers\TheCourierGuyParcelPerfectAPI\Services\FileIo;
 
 // use Vault\ShipmentCourier\Exceptions\ShipmentCourierException;
 
 
-class GetSecureToken extends TheCourierGuyPPAPI
+class GetSecureToken extends CourierTcg
 {
+
   use CourierTraits;
 
   public $email;

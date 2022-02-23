@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Helpers\TheCourierGuyParcelPerfectAPI;
+namespace Vault\CourierTcg;
 
 use Vault\ShipmentCourier\ShipmentCourier as ShipmentCourier;
-// use App\Helpers\TheCourierGuyParcelPerfectAPI\Services\Auth\GetSecureToken;
+// useVault\CourierTcg\Services\Auth\GetSecureToken;
 
 use App\Helpers\SimpleClient;
 
@@ -34,9 +34,9 @@ class TheCourierGuyPPAPI extends ShipmentCourier
 
   public function token_check()
   {
-    $file = storage_path( '/app/public/test_token_id' );
-    $time  = strtotime( 'now' );
-    $dayInSecs = 60 * 60 * 24;
+    $file      = storage_path( '/app/public/test_token_id' );
+    $time      = strtotime( 'now' );
+    $dayInSecs = 60 * 60 * 24; // 86400
 
     if ( file_exists( $file ) ) {
       // $stats = fstat( $fhandle = fopen( $file, 'r' ) );
