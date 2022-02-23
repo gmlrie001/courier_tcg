@@ -17,7 +17,7 @@
     }
   ],
   "require-dev": {
-    "vault/shipment_courier": "dev-developTest"
+    "vault/shipment_courier": "dev-main"
   },
   "minimum-stability": "dev",
   "config": {
