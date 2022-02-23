@@ -9,16 +9,16 @@
     'accountInfo' => [
       'email'         => "tcg11@ecomm",
       'password'      => "tcgecomm11",
-      'accountNumber' => NULL,
-      'serviceType'   => NULL,
-      'accountPin'    => NULL,
+      'accountNumber' => "",
+      'serviceType'   => "",
+      'accountPin'    => "",
     ],
 
   // Client specific account information/credentials
     'shipmentOrigin' => [
       'originStreetAddress' => "",
-      'originBusinessPark'  => NULL,
-      'originOtherAddress'  => NULL,
+      'originBusinessPark'  => "" ,
+      'originOtherAddress'  => "" ,
       'originStateProvince' => "",
       'originCountryCode'   => "ZA",
       'originCountryName'   => "South Africa",
@@ -34,7 +34,7 @@
     'shipmentDestination' => [
       'destinationStreetAddress' => "", // 'delivery_address_line_1',
       'destinationBusinessPark'  => "", // 'delivery_address_line_2',
-      'destinationOtherAddress'  => NULL, // 'delivery_address_line_2',
+      'destinationOtherAddress'  => "", // 'delivery_address_line_2',
       'destinationStateProvince' => "", // 'delivery_province',
       'destinationCountryCode'   => "", // 'delivery_country',
       'destinationCountryName'   => "", // 'delivery_country',
@@ -69,9 +69,9 @@
 
   // Client specific account information/credentials
     'shipmentPickupDetails' => [
-      'pickupComments'     => NULL,
-      'pickupReference1'   => NULL,
-      'pickupReference2'   => NULL,
+      'pickupComments'     => "" ,
+      'pickupReference1'   => "" ,
+      'pickupReference2'   => "",
       'pickupDate'         => date( 'Y-m-d 00:00:00', strtotime( 'tomorrow' ) ),
       'pickupReadyTime'    => '14:00',
       'pickupOpeningTime'  => '11:00',
